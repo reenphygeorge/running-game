@@ -13,25 +13,31 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="Resources/style.css">
 
-  <title>Captain Finn</title>
+  <title>A simple running game</title>
 </head>
 
 <body>
+  <div class="ph_container container">
+    <h1 class="text-center">Thanks for visiting. <br><br>We don't support mobile devices.<br><br>Please switch to
+      destop/laptop</h1>
+  </div>
   <div id="gameOver" class="gameover d-flex justify-content-center">
     <h3 id="final_score" class="mt-5">Game Over <br><br> Your score: 0<br><br></h3>
     <img onclick="window.location.reload()" class="mt-5" src="Resources/restart 1.png" height="50px" width="50px">
     <div class="row">
-     <div class="col-md-12">
-       
-     </div> 
+      <div class="col-md-12">
+
+      </div>
     </div>
   </div>
-  <div id="score_cont">Your Score: 0</div>
-  <div class="finn">
-    <img id="fnn" src="Resources/Character/running.gif" width="150px">
-  </div>
-  <div class="obstacles animate-obs">
-    <img id="obs" src="Resources/Obstacles/corona.png" width="105px">
+  <div class="game-container">
+    <div id="score_cont">Your Score: 0</div>
+    <div class="finn">
+      <img id="fnn" src="Resources/Character/running.gif" width="150px">
+    </div>
+    <div class="obstacles animate-obs">
+      <img id="obs" src="Resources/Obstacles/corona.png" width="105px">
+    </div>
   </div>
 
   <!-- Custom Script -->

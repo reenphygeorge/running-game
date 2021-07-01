@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('https://reenphygeorge.github.io/running-game/bgm.png');
+    background-image: url('https://reenphygeorge.github.io/running-game/Resources/bgm.png');
     background-size: 1300px 800px;
     overflow: hidden;
 }
@@ -74,4 +74,19 @@ body {
     position: absolute;
     top: 20px;
     left: 90vw;
+}
+
+.ph_container {
+    color: white;
+    margin-top: 200px;
+    display: none;
+}
+
+@media screen and (max-width: 1023px){
+    .game-container {
+        display: none;
+    }
+    .ph_container {
+        display: block;
+    }
 }
