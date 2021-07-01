@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("/bgm.png");
+    background-image: url("https://reenphygeorge.github.io/running-game/bgm.png");
     background-size: 1300px 800px;
     overflow: hidden;
 }
