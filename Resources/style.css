@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/Resources/bgm.png");
+    background-size: 1300px 800px;
+    overflow: hidden;
+}
+
+.gameover {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    visibility: hidden;
+}
+
+.finn{
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+}
+
+.obstacles {
+    position: absolute;
+    bottom: 0;
+    left: 90vw;
+}
+
+.obs-stop {
+    position: absolute;
+    left: 8vw;
+}
+
+.animateFinn {
+    animation: finn 1s linear;
+}
+
+@keyframes finn {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 200px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+
+.animate-obs {
+    animation: ani-obs 5s linear infinite;
+}
+
+@keyframes ani-obs {
+    0% {
+        left: 100vw;
+    }
+
+    100% {
+        left: -10vw;
+    }
+}
+
+#score_cont {
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 90vw;
+}
